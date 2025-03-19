@@ -8,10 +8,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
-
-
 </head>
+
 <body>
     <body>
         <header>
@@ -25,11 +23,10 @@
                 </ul>
             </nav>
         </header>
+
         <section id="about">
             <h2>About Me</h2>
             <img src="assets/Profile.jpeg" alt="Profile Picture" class="profile-pic">
-
-
             <p>
                 I am Mariyam Farhana B, a passionate and detail-oriented **Bachelor of Engineering** graduate with a strong foundation in **Java, Cloud Computing, Networking, and Web Development**.  
         I thrive on solving complex problems and continuously upskilling in the latest technologies.  
@@ -40,47 +37,33 @@
         
         <section id="skills">
             <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="skill">
-                    <i class="fas fa-code"></i>
-                    <p>Java</p>
+        
+            <div class="skills-category">
+                <h3>Technical Skills</h3>
+                <div class="skills-container">
+                    <div class="skill"><i class="fas fa-code"></i><p>Java</p></div>
+                    <div class="skill"><i class="fas fa-cloud"></i><p>Cloud Computing</p></div>
+                    <div class="skill"><i class="fas fa-network-wired"></i><p>Networking</p></div>
+                    <div class="skill"><i class="fab fa-html5"></i><p>HTML</p></div>
+                    <div class="skill"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+                    <div class="skill"><i class="fab fa-js"></i><p>JavaScript</p></div>
                 </div>
-                <div class="skill">
-                    <i class="fas fa-cloud"></i>
-                    <p>Cloud Computing</p>
+            </div>
+        
+            <div class="skills-category">
+                <h3>Non-Technical Skills</h3>
+                <div class="skills-container">
+                    <div class="skill"><i class="fas fa-comments"></i><p>Communication</p></div>
+                    <div class="skill"><i class="fas fa-users"></i><p>Teamwork</p></div>
+                    <div class="skill"><i class="fas fa-lightbulb"></i><p>Problem Solving</p></div>
+                    <div class="skill"><i class="fas fa-bullseye"></i><p>Time Management</p></div>
+                    <div class="skill"><i class="fas fa-tasks"></i><p>Leadership</p></div>
+                    <div class="skill"><i class="fas fa-handshake"></i><p>Adaptability</p></div>
+                    <div class="skill"><i class="fas fa-brain"></i><p>Critical Thinking</p></div>
                 </div>
-                <div class="skill">
-                    <i class="fas fa-network-wired"></i>
-                    <p>Networking</p>
-                </div>
-                <div class="skill">
-                    <i class="fas fa-comments"></i>
-                    <p>Communication</p>
-                </div>
-                <div class="skill">
-                    <i class="fas fa-users"></i>
-                    <p>Teamwork</p>
-                </div>
-                <div class="skill">
-                    <i class="fas fa-lightbulb"></i>
-                    <p>Problem Solving</p>
-                </div>
-                <div class="skill">
-                    <i class="fab fa-html5"></i>
-                    <p>HTML</p>
-                </div>
-                <div class="skill">
-                    <i class="fab fa-css3-alt"></i>
-                    <p>CSS</p>
-                </div>
-                <div class="skill">
-                    <i class="fab fa-js"></i>
-                    <p>JavaScript</p>
-                </div>
-                
             </div>
         </section>
-        
+            
         <section id="resume">
             <h2>Resume</h2>
             <p>Want to know more about me? Download my resume below.</p>
@@ -109,9 +92,30 @@
                     <p><i class="fa-solid fa-user"></i> <strong>Mariyam Farhana B</strong></p>
                     <p><i class="fa-solid fa-envelope"></i> <a href="mailto:farhanamariyam.11@gmail.com">farhanamariyam.11@gmail.com</a></p>
                     <p><i class="fa-solid fa-phone"></i> <a href="tel:+98941652786">98941652786</a></p>
-                    <p><i class="fa-brands fa-linkedin"></i> <a href="https://linkedin.com/in/Mfarhana" target="_blank">LinkedIn</a></p>
+                    <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/mariyam-farhana-b-7095811b1" target="_blank">LinkedIn</a></p>
                 </div>
             </section>
+
+            <form action="https://formspree.io/f/maneqewz" method="POST" class="contact-form">
+                    
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+            
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            
             
         
     </body>
