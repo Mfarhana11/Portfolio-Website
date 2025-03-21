@@ -234,15 +234,12 @@ section {
     cursor: pointer;
     transition: 
 }
-
-/* General Responsive Styles */
 @media (max-width: 1024px) {
     .container {
         width: 90%;
     }
 }
 
-/* Mobile View */
 @media (max-width: 768px) {
     header nav ul {
         flex-direction: column;
@@ -277,7 +274,6 @@ section {
     }
 }
 
-/* Small Mobile Screens */
 @media (max-width: 480px) {
     .skills-container {
         grid-template-columns: repeat(1, 1fr);
